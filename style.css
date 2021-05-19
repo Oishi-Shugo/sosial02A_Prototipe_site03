@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+   box-sizing: border-box;
+   font-family: serif;
+}
+
+body {
+    /*background-image : url("./images/back01.jpg");*/
+    background-color:#E6FFE9;
+    background-size:75% 100%;
+    background-position: center top;
+ 	 background-repeat: no-repeat;
+ 	 background-size: 100% auto;
+}
+
+/*ヘッダー*/
+header {
+  top: 0;
+  width: 75%;
+  padding: 5px 4% ;
+  margin: auto;
+  background-color: #99CC99;
+  background-size:auto;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+  color: #222222
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: auto;
+}
+
+
+a {
+  color:#222;
+  text-decoration: none;
+}
+
+/*#container{
+   width: 84%;
+   max-width: 1024px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: whitesmoke;
+}*/
+
+
+h1 {
+  font-size: 2vw;
+}
+
+h2{
+  font-size: 1vw;
+}
+
+nav{
+   margin: 0 0 0 auto;
+}
+
+ul{
+  list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 14px;
+}
+
+ul li{
+  list-style-type: none;
+ }
+
+ div{
+   padding: 8px 40px;
+
+   display: block;
+ }
+
+iframe {
+  margin: 10px;
+  border:1px dotted gray;
+  width:75%;
+  height:300px;
+}
+
+.iframe{
+  text-align: center;
+}
+
+.resizeimage01 {
+   max-width: 1600px; /* 最大幅 */
+   min-width: 240px; /* 最小幅 */
+   text-align:center;
+ margin:0 auto;
+ }
+.resizeimage01 img {
+  width: 75%;
+  height: auto;
+  text-align:center;
+ margin:0 auto;
+}
+
+footer{
+  text-align: center;
+  width: 75%;
+  padding: 5px 4% ;
+  margin: auto;
+  background-color: #99CC99;
+  background-size:auto;
+}

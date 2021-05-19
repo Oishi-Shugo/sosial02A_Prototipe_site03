@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trial Production ver.03</title>
+     <link rel="stylesheet" href="style.css">
+
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+
+  </head
+
+  <!--　ヘッダー　-->
+  <body>
+
+
+
+    <header>
+      <h1 class="title">東郷駅・一木一草</h1>
+      <nav class="nav">
+        <ul>
+          <li class="menu-group"><a href="https://sites.google.com/view/itibokuissou">プロトタイプ一覧サイト</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 地図イメージ -->
+    <div class="container">
+    <p></p>
+    <p class="resizeimage01">
+    <img src="images/img02.png" usemap="#ImageMap" alt="東郷駅周辺地図" />
+    </p>
+  <map name="ImageMap">
+    <area shape="rect" coords="1027,56,1452,120" href="info/info01.html" target="infoWindow" alt="東郷駅入り口" />
+    <area shape="rect" coords="431,516,856,577" href="info/info02.html" target="infoWindow" alt="東郷駅前" />
+    <area shape="rect" coords="910,642,1332,704" href="info/info03.html" target="infoWindow" alt="東郷駅日の里口" />
+    <area shape="rect" coords="249,833,673,896" href="info/info04.html" target="infoWindow" alt="東郷駅西口" />
+    <area shape="rect" coords="880,542,1304,604" href="info/info05.html" target="infoWindow" alt="JR東郷駅" />
+  </map>
+  </div>
+  <script>
+      $('img[usemap]').rwdImageMaps();
+  </script>
+
+<div class="iframe">
+  <iframe src="default.html" scrolling="no" name="infoWindow" ></iframe>
+
+</div>
+
+
+<footer>
+  <ul>
+      <li><a href="http://design.kyusan-u.ac.jp/socialdesign/?%E5%A4%A7%E7%9F%B3%E4%BF%AE%E6%82%9F/%E6%83%85%E5%A0%B1%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%BC%94%E7%BF%92IIA">ソーシャルデザイン学科・大石修悟プロジェクトページ</li>
+  </ul>
+</footer>
+  </body>
+</html>
+
+
+<!-- 以下作業メモ（サイト構成に直接の影響がないアイデア置き場） -->
+<!-- 画像幅をウインドウズサイズに合わせるCSSを実装。以下参考　https://allabout.co.jp/gm/gc/400630/ -->
